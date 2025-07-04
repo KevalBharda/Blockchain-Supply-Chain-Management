@@ -3,6 +3,7 @@
 This project is a decentralized supply chain management system built using Solidity, Hardhat, and React.js. It enables transparent, traceable, and tamper-proof tracking of shipments across different parties using blockchain technology.
 
 🔍 Features
+
 Create Shipments: Anyone can create a shipment by specifying receiver, pickup time, distance, and payment amount.
 
 Track Status: Monitor the shipment’s progress (Pending → In Transit → Delivered).
@@ -14,6 +15,7 @@ Payment on Delivery: Ether payments are locked in the contract and released only
 User Wallet Integration: Supports MetaMask for Web3 connectivity.
 
 💡 Tech Stack
+
 Frontend: React.js, Web3Modal, Ethers.js
 
 Smart Contracts: Solidity, Hardhat
@@ -23,6 +25,7 @@ Blockchain: Local Hardhat Network (for testing), compatible with Ethereum testne
 State Management: React Context API
 
 📦 Workflow
+
 Sender creates a shipment by filling in details and paying in ETH.
 
 Smart Contract records and holds the payment.
@@ -32,24 +35,31 @@ Shipment Status updates by invoking startShipment() and completeShipment().
 Receiver confirms delivery — payment is released.
 
 🛠️ Setup Instructions
+
 Clone the repository:
 
 git clone https://github.com/your-username/your-repo-name.git
+
 cd your-repo-name
 
 Install dependencies:
 
 npm install
+
 Compile and deploy contracts:
 
 npx hardhat compile
+
 npx hardhat node
+
 npx hardhat run scripts/deploy.js --network localhost
+
 Start frontend:
 
 npm run dev
 
 🧠 Use Cases
+
 Tracking goods across manufacturers, warehouses, retailers
 
 Verifying authenticity of products
