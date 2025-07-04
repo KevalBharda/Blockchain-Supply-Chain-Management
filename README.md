@@ -1,3 +1,5 @@
+🚚 Blockchain-Based Supply Chain Management System
+
 This project is a decentralized supply chain management system built using Solidity, Hardhat, and React.js. It enables transparent, traceable, and tamper-proof tracking of shipments across different parties using blockchain technology.
 
 🔍 Features
@@ -32,31 +34,21 @@ Receiver confirms delivery — payment is released.
 🛠️ Setup Instructions
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
 Install dependencies:
 
-bash
-Copy
-Edit
 npm install
 Compile and deploy contracts:
 
-bash
-Copy
-Edit
 npx hardhat compile
 npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 Start frontend:
 
-bash
-Copy
-Edit
 npm run dev
+
 🧠 Use Cases
 Tracking goods across manufacturers, warehouses, retailers
 
